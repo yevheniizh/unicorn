@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_6743a09b8b89d56"
   },
   "dependencies": {
     "dayjs": "^1.11.7",
@@ -38,6 +39,7 @@
     "@types/node": "^18.15.5",
     "@types/react": "^18.0.28",
     "autoprefixer": "^10.4.14",
+    "chromatic": "^6.17.4",
     "concurrently": "^7.6.0",
     "postcss": "^8.4.21",
     "storybook": "^7.0.11",
